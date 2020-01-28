@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="rootPane" prefHeight="550.0" prefWidth="478.0" styleClass="custom-pane" stylesheets="@dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RegisterController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="mainContainer" prefHeight="501.0" prefWidth="478.0" styleClass="custom-pane" stylesheets="@dark-theme.css">
+         <children>
+            <ImageView fitHeight="550.0" fitWidth="490.0" layoutX="29.0" opacity="0.05" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/Logo_WAT.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="104.0" layoutY="86.0" prefHeight="368.0" prefWidth="281.0" spacing="10.0" stylesheets="@dark-theme.css" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="93.0" AnchorPane.topAnchor="86.0">
+               <children>
+                  <JFXTextField fx:id="name" labelFloat="true" promptText="Nazwa użytkownika">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="id" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Hasło">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="mobile" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Powtórz hasło">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="email" labelFloat="true" layoutX="10.0" layoutY="62.0" promptText="Email">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="email1" labelFloat="true" layoutX="35.0" layoutY="246.0" promptText="Imię i nazwisko">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="CENTER" layoutX="38.0" layoutY="466.0" prefHeight="47.0" prefWidth="404.0" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="saveButton" onAction="#addMember" prefHeight="66.0" prefWidth="100.0" text="Zapisz" />
+                  <JFXButton fx:id="cancelButton" layoutX="10.0" layoutY="10.0" onAction="#cancel" prefHeight="66.0" prefWidth="100.0" text="Wyjdź" />
+               </children>
+            </HBox>
+            <FontAwesomeIconView glyphName="USER_PLUS" layoutX="29.0" layoutY="77.0" size="70" text="" />
+            <HBox alignment="CENTER_RIGHT" layoutX="414.0" prefHeight="42.0" prefWidth="55.0" stylesheets="@style.css">
+               <children>
+                  <FontAwesomeIconView fill="#cc3535" glyphName="MINUS" onMouseClicked="#minClicked" size="18.0">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </FontAwesomeIconView>
+                  <FontAwesomeIconView fill="#cc3535" glyphName="CLOSE" onMouseClicked="#closeClicked" size="18.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </FontAwesomeIconView>
+               </children>
+            </HBox>
+            <FontAwesomeIconView fill="#cc3535" glyphName="USER" layoutX="87.0" layoutY="154.0" onMouseClicked="#closeClicked" size="18.0" />
+            <MaterialDesignIconView glyphName="GMAIL" layoutX="85.0" layoutY="350.0" size="18" />
+            <MaterialDesignIconView glyphName="ACCOUNT_BOX" layoutX="85.0" layoutY="415.0" size="18" text="" />
+            <MaterialDesignIconView glyphName="ACCOUNT_KEY" layoutX="84.0" layoutY="288.0" size="20" />
+            <MaterialDesignIconView glyphName="ACCOUNT_KEY" layoutX="84.0" layoutY="220.0" size="20" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
