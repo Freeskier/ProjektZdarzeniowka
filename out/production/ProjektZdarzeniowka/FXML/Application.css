@@ -19,11 +19,7 @@
     -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-.button:focused{
-    -fx-border-width: 0px 0px 0px 0px;
 
-
-}
 .button:pressed{
     -fx-text-fill: white;
 }

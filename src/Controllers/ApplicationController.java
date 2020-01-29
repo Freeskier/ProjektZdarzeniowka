@@ -1,5 +1,6 @@
 package Controllers;
 
+import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,6 +12,7 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -24,7 +26,24 @@ public class ApplicationController {
     private MenuButton mbtnUsrInfoBox;
 
     @FXML
-    public void btnHomeOnClick() {
+    private StackPane stackPaneContent;
+
+    @FXML
+    private AnchorPane acMain;
+
+    @FXML
+    public void btnHomeOnClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        try {
+            fxmlLoader.load(getClass().getResource("/FXML/Home.fxml").openStream());
+        } catch (IOException e) {
+
+        }
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/glyphStyle.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
     }
 
     @FXML
@@ -39,7 +58,17 @@ public class ApplicationController {
 
     @FXML
     public void btnEmployeOnClick() {
-        System.out.println("HOME");
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        try {
+            fxmlLoader.load(getClass().getResource("/FXML/Employe.fxml").openStream());
+        } catch (IOException e) {
+
+        }
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/glyphStyle.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
     }
 
     @FXML

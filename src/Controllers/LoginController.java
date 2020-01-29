@@ -10,6 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
@@ -30,8 +31,11 @@ public class LoginController implements Initializable {
     private OctIconView badLoginCtr2;
 
     @FXML
+    private TextField username;
+
+    @FXML
     private Label badLoginText;
-    int i = 0;
+    private int i = 0;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 

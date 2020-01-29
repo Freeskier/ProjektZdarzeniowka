@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Second">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AboutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AddEmployeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/SellController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/ViewEmployeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Application.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Application.fxml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +97,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1TFR20CVsse1JcxZ5H6AMMs4kjl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -98,8 +123,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/fontawesomefx-glyphsbrowser-master" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -217,15 +242,31 @@
       <workItem from="1578600913137" duration="5991000" />
       <workItem from="1579362158073" duration="120000" />
       <workItem from="1580136439831" duration="18525000" />
-      <workItem from="1580205057149" duration="14067000" />
+      <workItem from="1580205057149" duration="17739000" />
+      <workItem from="1580297870223" duration="15190000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second" />
   </component>
 </project>
