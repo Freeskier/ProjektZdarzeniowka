@@ -14,15 +14,16 @@
 
 <AnchorPane fx:id="acPaneProduct" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddProductController">
    <children>
-      <Label fx:id="lblHeader" alignment="CENTER" layoutX="14.0" layoutY="24.0" prefHeight="30.0" prefWidth="726.0" text="ADD PRODUCT">
+      <Label fx:id="lblHeader" alignment="CENTER" layoutX="14.0" layoutY="24.0" prefHeight="30.0" prefWidth="726.0" text="DODAJ PRODUKT">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <GridPane hgap="1.0" layoutX="27.0" layoutY="70.0">
+      <GridPane hgap="1.0" layoutX="36.0" layoutY="83.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -48,49 +49,43 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="Product Id :">
+            <Label text="ID Produktu :">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Product Name :" GridPane.columnSpan="2" GridPane.rowIndex="2">
+            <Label text="Nazwa produktu :" GridPane.columnSpan="2" GridPane.rowIndex="3">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Quantity :" GridPane.rowIndex="4">
+            <Label text="Liczba :" GridPane.rowIndex="6">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Purses Price :" GridPane.rowIndex="6">
+            <Label text="Cena sprzedaży :" GridPane.columnSpan="2" GridPane.rowIndex="9">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Sell Price" GridPane.rowIndex="8">
+            <Label prefHeight="21.0" prefWidth="129.0" text="Dostarczone od:" GridPane.columnIndex="4" GridPane.columnSpan="2">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Supplied By :" GridPane.columnIndex="4">
+            <Label text="Marka :" GridPane.columnIndex="4" GridPane.rowIndex="3">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Brand :" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Label text="Kategoria :" GridPane.columnIndex="4" GridPane.rowIndex="6">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Category :" GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <Label text="Jednostka :" GridPane.columnIndex="4" GridPane.rowIndex="9">
                <font>
                   <Font size="15.0" />
                </font></Label>
-            <Label text="Unit :" GridPane.columnIndex="4" GridPane.rowIndex="9">
-               <font>
-                  <Font size="15.0" />
-               </font></Label>
-            <Button fx:id="btnSave" mnemonicParsing="false" prefHeight="37.0" prefWidth="81.0" text="Save" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="13" />
-            <Button fx:id="btnUpdate" mnemonicParsing="false" text="Update" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="13" />
+            <Button fx:id="btnSave" mnemonicParsing="false" prefHeight="37.0" prefWidth="81.0" text="Zapisz" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="12" />
             <JFXTextField focusColor="#cc3535" GridPane.columnSpan="2" GridPane.rowIndex="1" />
-            <JFXTextField focusColor="#cc3535" layoutX="313.0" layoutY="43.0" GridPane.columnSpan="2" GridPane.rowIndex="3" />
-            <JFXTextField focusColor="#cc3535" layoutX="10.0" layoutY="43.0" GridPane.rowIndex="5" />
-            <JFXTextField focusColor="#cc3535" layoutX="10.0" layoutY="43.0" prefHeight="30.0" prefWidth="202.0" GridPane.columnSpan="2" GridPane.rowIndex="7" />
-            <JFXTextField focusColor="#cc3535" layoutX="10.0" layoutY="43.0" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+            <JFXTextField focusColor="#cc3535" layoutX="313.0" layoutY="43.0" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+            <JFXTextField focusColor="#cc3535" layoutX="10.0" layoutY="43.0" GridPane.rowIndex="7" />
+            <JFXTextField focusColor="#cc3535" layoutX="10.0" layoutY="43.0" GridPane.columnSpan="2" GridPane.rowIndex="10" />
             <JFXComboBox focusColor="#cc3535" prefHeight="25.0" prefWidth="269.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="1" />
             <JFXComboBox focusColor="#cc3535" layoutX="313.0" layoutY="43.0" prefHeight="25.0" prefWidth="206.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="7" />
             <JFXComboBox focusColor="#cc3535" layoutX="313.0" layoutY="43.0" prefHeight="25.0" prefWidth="279.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="4" />

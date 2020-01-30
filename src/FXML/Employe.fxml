@@ -62,10 +62,10 @@
                            <children>
                               <MenuBar layoutX="81.0" layoutY="22.0" prefHeight="27.0" prefWidth="130.0" style="-fx-background-color: #222222;">
                                 <menus>
-                                  <Menu mnemonicParsing="false" text="Employee">
+                                  <Menu mnemonicParsing="false" text="Pracownik">
                                     <items>
-                                      <MenuItem fx:id="btnAddEmployee" mnemonicParsing="false" onAction="#btnAddEmployeeOnClick" text="Add Employee" />
-                                          <MenuItem fx:id="btnViewEmployee" mnemonicParsing="false" onAction="#btnViewEmployeeOnAction" text="View Employee" />
+                                      <MenuItem fx:id="btnAddEmployee" mnemonicParsing="false" onAction="#btnAddEmployeeOnClick" text="Dodaj" />
+                                          <MenuItem fx:id="btnViewEmployee" mnemonicParsing="false" onAction="#btnViewEmployeeOnAction" text="Podgląd" />
                                     </items>
                                   </Menu>
                                 </menus>

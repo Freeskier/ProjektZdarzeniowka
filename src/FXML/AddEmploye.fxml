@@ -41,12 +41,12 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label text="User Name :" GridPane.columnSpan="2">
+                  <Label text="Nazwa użytkownika :" GridPane.columnSpan="2">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label text="Full Name :" GridPane.rowIndex="2">
+                  <Label text="Imie i nazwisko :" GridPane.rowIndex="2">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -56,12 +56,12 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label text="Phone :" GridPane.rowIndex="6">
+                  <Label text="Telefon :" GridPane.rowIndex="6">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label text="Password :" GridPane.rowIndex="8">
+                  <Label text="Hasło :" GridPane.rowIndex="8">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -71,7 +71,7 @@
                   <JFXTextField fx:id="tfEmail" layoutX="288.0" layoutY="103.0" GridPane.columnSpan="2" GridPane.rowIndex="5" />
                   <JFXTextField fx:id="tfPhone" layoutX="288.0" layoutY="165.0" GridPane.columnSpan="2" GridPane.rowIndex="7" />
                   <JFXTextField fx:id="tfPassword" layoutX="288.0" layoutY="285.0" GridPane.columnSpan="2" GridPane.rowIndex="9" />
-                  <Button fx:id="btnSave" mnemonicParsing="false" text="Save" GridPane.rowIndex="11" />
+                  <Button fx:id="btnSave" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Zapisz" GridPane.rowIndex="11" />
                </children>
             </GridPane>
          </children>

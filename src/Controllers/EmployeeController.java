@@ -34,7 +34,6 @@ public class EmployeeController {
 
     @FXML
     public void btnViewEmployeeOnAction(ActionEvent event) throws IOException {
-        lblView.setText("Employee");
 
         FXMLLoader fXMLLoader = new FXMLLoader();
         fXMLLoader.load(getClass().getResource("/FXML/ViewEmploye.fxml").openStream());
@@ -46,9 +45,7 @@ public class EmployeeController {
 
     @FXML
     private void btnAddEmployeeOnClick(ActionEvent event) throws IOException {
-        lblView.setText("Add Employee");
-
-
+        
         FXMLLoader fXMLLoader = new FXMLLoader();
         fXMLLoader.load(getClass().getResource("/FXML/AddEmploye.fxml").openStream());
 

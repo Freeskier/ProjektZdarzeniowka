@@ -17,7 +17,7 @@ public class SellController {
         FXMLLoader fXMLLoader = new FXMLLoader();
         fXMLLoader.load(getClass().getResource("/FXML/ViewSell.fxml").openStream());
         AnchorPane acPane = fXMLLoader.getRoot();
-        spMainContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
+        spMainContent.getStylesheets().add(getClass().getResource("/FXML/StoreCSS.css").toExternalForm());
         spMainContent.getChildren().clear();
         spMainContent.getChildren().add(acPane);
     }
@@ -27,7 +27,7 @@ public class SellController {
         FXMLLoader fXMLLoader = new FXMLLoader();
         fXMLLoader.load(getClass().getResource("/FXML/ViewCustomer.fxml").openStream());
         AnchorPane acPane = fXMLLoader.getRoot();
-        spMainContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
+        spMainContent.getStylesheets().add(getClass().getResource("/FXML/StoreCSS.css").toExternalForm());
         spMainContent.getChildren().clear();
         spMainContent.getChildren().add(acPane);
     }

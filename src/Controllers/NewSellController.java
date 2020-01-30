@@ -5,9 +5,10 @@ import javafx.scene.Node;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
-public class PassChangeController {
+public class NewSellController {
+
     @FXML
     public void closeClickedd(MouseEvent e) {
-        ((Stage) ((Node) e.getSource()).getScene().getWindow()).close();
+        ((Stage)((Node)e.getSource()).getScene().getWindow()).close();
     }
 }

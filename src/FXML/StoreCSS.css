@@ -19,17 +19,17 @@
 
 
 .table-view .column-header-background .label{
-    -fx-text-fill: #cc3535;
+    -fx-text-fill: #a7a7a7;
 }
 
 .table-view .table-cell{
-    -fx-text-fill: #cc3535;
+    -fx-text-fill: #a7a7a7;
     -fx-alignment: center;
 }
 .table-view .column-header, .table-view .filler {
     -fx-background-color: #171717;
     -fx-size: 35;
-    -fx-border-color: #cc3535;
+    -fx-border-color: #a7a7a7;
     -fx-border-insets: -1 0 0 -1;
     -fx-padding: 0 5 0 0;
 }

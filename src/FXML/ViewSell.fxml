@@ -14,13 +14,6 @@
          <top>
             <HBox alignment="CENTER" prefHeight="53.0" prefWidth="921.0" spacing="10.0" BorderPane.alignment="CENTER" />
          </top>
-         <bottom>
-            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
-               <children>
-                  <Button fx:id="btnAdd" mnemonicParsing="false" text="Add New Customer" />
-               </children>
-            </HBox>
-         </bottom>
          <center>
             <TableView fx:id="tblSellView" prefHeight="486.0" prefWidth="869.0" BorderPane.alignment="CENTER">
               <columns>
@@ -43,6 +36,18 @@
          <padding>
             <Insets left="30.0" right="30.0" />
          </padding>
+         <bottom>
+            <HBox alignment="CENTER_RIGHT" prefHeight="69.0" prefWidth="763.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#addSell" prefHeight="25.0" prefWidth="189.0" text="Dodaj zamówienie" />
+                  <Button fx:id="btnUpdate" mnemonicParsing="false" text="Załaduj" />
+                  <Button fx:id="btnDelete" mnemonicParsing="false" text="Usuń" />
+               </children>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </HBox>
+         </bottom>
       </BorderPane>
    </children>
 </AnchorPane>
