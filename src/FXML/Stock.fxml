@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="965.0" stylesheets="@../../style/MainStyle.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.application.StockController">
+<AnchorPane id="AnchorPane" prefHeight="599.0" prefWidth="965.0" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.StoreController">
    <children>
       <BorderPane fx:id="bpStore" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <AnchorPane fx:id="acHeadStore" prefHeight="81.0" prefWidth="965.0" stylesheets="@../../style/store.css" BorderPane.alignment="CENTER">
+            <AnchorPane fx:id="acHeadStore" prefHeight="81.0" prefWidth="965.0" stylesheets="@store.css" BorderPane.alignment="CENTER">
                <children>
                   <GridPane prefHeight="92.0" prefWidth="965.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columnConstraints>
@@ -25,13 +29,13 @@
                      <children>
                         <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="1">
                            <children>
-                              <ToggleButton fx:id="btnStock" mnemonicParsing="false" onAction="#btnStockOnAction" text="Stock" />
-                              <ToggleButton fx:id="btnSupplyer" mnemonicParsing="false" onAction="#btnSupplyerOnAction" text="Supplier" />
-                              <ToggleButton fx:id="btnBrands" mnemonicParsing="false" onAction="#btnBrandsOnAction" text="Brands" />
-                              <ToggleButton fx:id="btnCatagory" mnemonicParsing="false" onAction="#btnCatagoryOnAction" text="Category" />
-                              <ToggleButton fx:id="btnUnit" mnemonicParsing="false" onAction="#btnUnitOnAction" text="Unit" />
-                              <ToggleButton fx:id="btnRma" mnemonicParsing="false" onAction="#btnRmaOnAction" text="RMA" />
-                              <ToggleButton fx:id="btnRepoerts" mnemonicParsing="false" onAction="#btnRepoertsOnAction" visible="false" />
+                              <ToggleButton fx:id="btnStock" mnemonicParsing="false"  text="Stock" />
+                              <ToggleButton fx:id="btnSupplyer" mnemonicParsing="false"  text="Supplier" />
+                              <ToggleButton fx:id="btnBrands" mnemonicParsing="false"  text="Brands" />
+                              <ToggleButton fx:id="btnCatagory" mnemonicParsing="false"  text="Category" />
+                              <ToggleButton fx:id="btnUnit" mnemonicParsing="false"  text="Unit" />
+                              <ToggleButton fx:id="btnRma" mnemonicParsing="false"  text="RMA" />
+                              <ToggleButton fx:id="btnRepoerts" mnemonicParsing="false"  visible="false" />
                            </children>
                            <padding>
                               <Insets right="10.0" />

@@ -38,13 +38,9 @@ public class EmployeeController {
 
         FXMLLoader fXMLLoader = new FXMLLoader();
         fXMLLoader.load(getClass().getResource("/FXML/ViewEmploye.fxml").openStream());
-
-
-
         AnchorPane acPane = fXMLLoader.getRoot();
-
+        spEmployeContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
         spEmployeContent.getChildren().clear();
-
         spEmployeContent.getChildren().add(acPane);
     }
 
@@ -64,4 +60,5 @@ public class EmployeeController {
         spEmployeContent.getChildren().add(acPane);
 
     }
+
 }

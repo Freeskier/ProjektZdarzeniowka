@@ -4,12 +4,14 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
@@ -18,7 +20,18 @@
    <children>
       <BorderPane fx:id="bpContent" layoutX="318.0" layoutY="172.0" prefHeight="526.0" prefWidth="736.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <center>
-            <StackPane fx:id="spEmployeContent" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+            <StackPane fx:id="spEmployeContent" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #2A2E37;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="533.0" fitWidth="420.0" layoutX="228.0" opacity="0.08" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="/FXML/Logo_WAT.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children></StackPane>
          </center>
          <top>
             <GridPane prefHeight="61.0" prefWidth="736.0" BorderPane.alignment="CENTER">
@@ -30,11 +43,11 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <HBox prefHeight="100.0" prefWidth="200.0">
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #2A2E37;">
                      <children>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
                            <children>
-                              <Label fx:id="lblView" layoutX="14.0" layoutY="7.0" text="Label">
+                              <Label fx:id="lblView" layoutX="14.0" layoutY="7.0" text="Pracownicy" textFill="WHITE">
                                  <font>
                                     <Font size="32.0" />
                                  </font>
@@ -43,11 +56,11 @@
                         </AnchorPane>
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #2A2E37;" GridPane.columnIndex="1">
                      <children>
                         <AnchorPane prefHeight="89.0" prefWidth="192.0">
                            <children>
-                              <MenuBar layoutX="77.0" layoutY="16.0">
+                              <MenuBar layoutX="77.0" layoutY="16.0" style="-fx-background-color: #222222;">
                                 <menus>
                                   <Menu mnemonicParsing="false" text="Employee">
                                     <items>

@@ -21,7 +21,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" fx:id="acMain" prefHeight="700.0" prefWidth="1000.0" stylesheets="@anchorStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ApplicationController">
+<AnchorPane id="AnchorPane" fx:id="acMain" prefHeight="700.0" prefWidth="1000.0" styleClass="custom-pane" stylesheets="@anchorStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ApplicationController">
    <children>
       <StackPane layoutY="-9.0" prefHeight="593.0" prefWidth="767.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -46,6 +46,23 @@
                                        </VBox.margin>
                                     </Button>
                                     <ImageView fitHeight="5.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icon/btnBreak.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Button fx:id="btnStore" contentDisplay="TOP" mnemonicParsing="false" onAction="#btnStoreOnClick" prefHeight="78.0" prefWidth="127.0" text="Sklep">
+                                       <graphic>
+                                          <ImageView fx:id="imgStoreBtn" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../icon/stockRed1.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <ImageView fitHeight="5.0" fitWidth="114.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@../icon/btnBreak.png" />
                                        </image>
@@ -89,23 +106,6 @@
                                           <ImageView fx:id="imgSettingsBtn" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
                                                 <Image url="@../icon/settingsRed1.png" />
-                                             </image>
-                                          </ImageView>
-                                       </graphic>
-                                       <VBox.margin>
-                                          <Insets bottom="10.0" top="10.0" />
-                                       </VBox.margin>
-                                    </Button>
-                                    <ImageView fitHeight="5.0" fitWidth="114.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../icon/btnBreak.png" />
-                                       </image>
-                                    </ImageView>
-                                    <Button fx:id="btnStore" contentDisplay="TOP" mnemonicParsing="false" onAction="#btnStoreOnClick" prefHeight="78.0" prefWidth="127.0" text="Sklep">
-                                       <graphic>
-                                          <ImageView fx:id="imgStoreBtn" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                                             <image>
-                                                <Image url="@../icon/stockRed1.png" />
                                              </image>
                                           </ImageView>
                                        </graphic>

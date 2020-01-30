@@ -22,6 +22,8 @@ import java.io.IOException;
 
 public class ApplicationController {
 
+
+
     @FXML
     private MenuButton mbtnUsrInfoBox;
 
@@ -30,6 +32,8 @@ public class ApplicationController {
 
     @FXML
     private AnchorPane acMain;
+
+    private StackPane spEmployeContent;
 
     @FXML
     public void btnHomeOnClick() throws IOException {
@@ -44,11 +48,21 @@ public class ApplicationController {
         stackPaneContent.getStylesheets().clear();
         stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/glyphStyle.css").toExternalForm());
         stackPaneContent.getChildren().add(root);
+
+
     }
 
+
     @FXML
-    public void btnStoreOnClick() {
-        System.out.println("HOME");
+    public void btnStoreOnClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.load(getClass().getResource("/FXML/Stock.fxml").openStream());
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/MainStyle.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
+
     }
 
     @FXML
@@ -57,18 +71,15 @@ public class ApplicationController {
     }
 
     @FXML
-    public void btnEmployeOnClick() {
+    public void btnEmployeOnClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader();
-        try {
-            fxmlLoader.load(getClass().getResource("/FXML/Employe.fxml").openStream());
-        } catch (IOException e) {
-
-        }
+        fxmlLoader.load(getClass().getResource("/FXML/Employe.fxml").openStream());
         AnchorPane root = fxmlLoader.getRoot();
         stackPaneContent.getChildren().clear();
         stackPaneContent.getStylesheets().clear();
-        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/glyphStyle.css").toExternalForm());
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
         stackPaneContent.getChildren().add(root);
+
     }
 
     @FXML
