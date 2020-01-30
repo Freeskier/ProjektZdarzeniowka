@@ -236,12 +236,14 @@
                      <center>
                         <StackPane fx:id="stackPaneContent" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                            <children>
-                              <AnchorPane prefHeight="562.0" prefWidth="816.0" style="-fx-background-color: #2A2E37;" />
-                              <ImageView fitHeight="676.0" fitWidth="415.0" opacity="0.08" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../icon/Logo_WAT.png" />
-                                 </image>
-                              </ImageView>
+                              <AnchorPane prefHeight="562.0" prefWidth="816.0" style="-fx-background-color: #2A2E37;">
+                                 <children>
+                                    <ImageView fitHeight="518.0" fitWidth="420.0" layoutX="236.0" layoutY="76.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icon/Logo_WAT.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
                            </children>
                         </StackPane>
                      </center>

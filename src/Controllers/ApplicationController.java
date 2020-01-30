@@ -46,7 +46,7 @@ public class ApplicationController {
         AnchorPane root = fxmlLoader.getRoot();
         stackPaneContent.getChildren().clear();
         stackPaneContent.getStylesheets().clear();
-        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/glyphStyle.css").toExternalForm());
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/HomeCSS.css").toExternalForm());
         stackPaneContent.getChildren().add(root);
 
 
@@ -60,14 +60,21 @@ public class ApplicationController {
         AnchorPane root = fxmlLoader.getRoot();
         stackPaneContent.getChildren().clear();
         stackPaneContent.getStylesheets().clear();
-        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/MainStyle.css").toExternalForm());
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/StoreCSS.css").toExternalForm());
         stackPaneContent.getChildren().add(root);
 
     }
 
     @FXML
-    public void btnSellOnClick() {
-        System.out.println("HOME");
+    public void btnSellOnClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.load(getClass().getResource("/FXML/Sell.fxml").openStream());
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/SellCSS.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
+
     }
 
     @FXML
@@ -77,19 +84,31 @@ public class ApplicationController {
         AnchorPane root = fxmlLoader.getRoot();
         stackPaneContent.getChildren().clear();
         stackPaneContent.getStylesheets().clear();
-        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/EmployeCSS.css").toExternalForm());
         stackPaneContent.getChildren().add(root);
 
     }
 
     @FXML
-    public void btnSettingsOnClick() {
-        System.out.println("HOME");
+    public void btnSettingsOnClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.load(getClass().getResource("/FXML/Settings.fxml").openStream());
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
     }
 
     @FXML
-    public void btnAboutOnClick() {
-        System.out.println("HOME");
+    public void btnAboutOnClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.load(getClass().getResource("/FXML/About.fxml").openStream());
+        AnchorPane root = fxmlLoader.getRoot();
+        stackPaneContent.getChildren().clear();
+        stackPaneContent.getStylesheets().clear();
+        stackPaneContent.getStylesheets().add(getClass().getResource("/FXML/viewEmployeStyle.css").toExternalForm());
+        stackPaneContent.getChildren().add(root);
     }
 
     @FXML

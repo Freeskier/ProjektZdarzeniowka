@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Second">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="third">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AddProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/OrganizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/PassChangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/SucessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/ViewCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/ViewSellController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/ApplicationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/SellController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/SellController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/SettingsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/SettingsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/StoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/Controllers/StoreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/About.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/AddEmploye.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/AddEmploye.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Application.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Employe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Employe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/EmployeePermission.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Home.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/MainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/MainStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Sell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Sell.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Settings.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Stock.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/Stock.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/ViewEmploye.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/ViewEmploye.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/glyphStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjektZdarzeniowka/FXML/glyphStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/SellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SellController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/StoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/About.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/AddEmploye.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/AddEmploye.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/Application.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Application.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/Employe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Employe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/EmployeePermission.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Home.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/MainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/MainStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Sell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Sell.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FXML/Settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Settings.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/Stock.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/Stock.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FXML/ViewEmploye.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/ViewEmploye.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/glyphStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/glyphStyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +270,7 @@
       <workItem from="1579362158073" duration="120000" />
       <workItem from="1580136439831" duration="18525000" />
       <workItem from="1580205057149" duration="17739000" />
-      <workItem from="1580297870223" duration="29542000" />
+      <workItem from="1580297870223" duration="58649000" />
     </task>
     <task id="LOCAL-00001" summary="Second">
       <created>1580323128203</created>
@@ -264,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580323173885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third">
+      <created>1580342949158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580342949158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +326,7 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second" />
+    <MESSAGE value="third" />
+    <option name="LAST_COMMIT_MESSAGE" value="third" />
   </component>
 </project>
