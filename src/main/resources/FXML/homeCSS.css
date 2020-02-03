@@ -1,0 +1,16 @@
+.label {
+     -fx-text-fill: #a7a7a7;
+     -fx-font-size: 15px;
+}
+
+#orgName{
+	-fx-text-fill: #cc3535;
+	-fx-font-size: 45px;
+	-fx-font-weight: bold
+}
+
+.glyph-icon
+{
+    -fx-fill: #cc3535;
+    -fx-opacity: 0.1;
+}

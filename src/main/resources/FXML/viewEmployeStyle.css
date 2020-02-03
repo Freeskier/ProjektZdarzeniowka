@@ -1,0 +1,33 @@
+.text-field
+{
+    -fx-text-fill: derive(#cc3535, 20%);
+    -fx-control-inner-background: #222222;
+    -fx-text-box-border: #222222;
+    -fx-focus-color: #222222;
+    -fx-prompt-text-fill: derive(#cc3535, 20%);
+}
+
+#tblEmoyeeList{
+    -fx-background-color: #222222;
+    -fx-border-width:0;
+    -fx-text-fill:red
+}
+
+#tblViewCurrentStore{
+    -fx-background-color: #222222;
+    -fx-border-width:0;
+    -fx-text-fill:red;
+}
+
+.button
+{
+    -fx-background-color: #222222;
+}
+
+.label {
+     -fx-text-fill: derive(#cc3535, 20%);
+}
+
+.jfx-text-field {
+    -fx-text-fill: #ababab;
+}
